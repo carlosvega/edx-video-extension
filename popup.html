@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EDX Video Downloader Tool</title>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<!-- <script src="js/vue.min.js"></script> -->
+	<script src="js/vue.js"></script>
+	<style type="text/css">
+		body {
+			width: 32em;
+		}
+		
+		h1 {
+			font-size: 1.5rem;
+		    text-align: center;
+		    font-weight: bold;
+		    font-variant: small-caps;
+		    font-style: italic;
+		    padding-top: 5px;
+		    padding-bottom: 5px;
+		    margin: 0;
+		}
+
+		.header {
+			background-color: #ddd;
+		}
+
+		.container {
+			max-width: none;
+			padding-bottom: 20px;
+			margin: auto;
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+
+		.content {
+			padding-top: 10px;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+		label {
+			width: 100%;
+			font-weight: 100;
+		    letter-spacing: 0.5px;
+		    font-variant: small-caps;
+		    margin: 0;
+		    margin-top: 10px;
+		}
+
+		input, textarea {
+			font-size: 12px;
+		    font-weight: 300;
+		    letter-spacing: 0.5px;
+			width: 100%;
+			border: #ccc 1px solid;
+    		padding: 2px;
+		}
+
+		blockquote {
+			border-left: #ccc solid 4px;
+		    padding-left: 10px;
+		    font-style: italic;
+		    margin-top: 5px;
+		    margin-bottom: 0px;
+		    font-size: 9pt;
+		    font-weight: 300;
+		    letter-spacing: 0.25px;
+		}
+
+		div.alert-warning {
+			margin-top: 10px;
+			margin-bottom: 0;
+		    font-weight: bold;
+		    font-style: italic;
+		    font-size: 14px;
+		    text-align: center;
+		}
+
+		#collapseContainer {
+			text-align: right;
+		}
+
+		a.btn {
+			font-size: 10pt;
+		    letter-spacing: 0.5px;
+		    font-variant: small-caps;
+		}
+
+	</style>
+	</head>
+<body>
+
+<div id="app" class="container">
+	<div class="row header">
+		<div class="col col-xs-12">
+			<h1>EDX Video Downloader Tool</h1>
+		</div>
+	</div>
+	
+
+	<div class="row content">
+		<div class="col col-xs-12">
+			<div id="collapseContainer">
+				<p>{{msg}}</p>
+				<a class="btn btn-info" data-toggle="collapse" href="#collapseMetadata" role="button" aria-expanded="false" aria-controls="collapseMetadata">
+		    		Show video sources
+		  		</a>
+			</div>
+		  	<div class="collapse" id="collapseMetadata">
+		  		<div v-for="source in sources">
+					<a :href="source">{{source}}</a>
+				</div>
+		  	</div>
+		</div>
+	</div>
+</div>
+
+</body>
+<script src="popup.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</html>
