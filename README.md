@@ -1,5 +1,7 @@
 # EDX video download extension
 
+<img src="icon.png" width="120" />
+
 This is an extension to help downloading videos from EDX platform. Use it at your own risk and discretion.
 
 <img src="docs/example.gif" width="600" />
