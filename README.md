@@ -1,8 +1,9 @@
-[![Github All Releases](https://img.shields.io/github/downloads/carlosvega/edx-video-extension/total.svg)]()
+<span>
+  <a style="display: inline" href="/carlosvega/edx-video-extension/blob/master"><img alt="Github All Releases" src="https://img.shields.io/github/downloads/carlosvega/edx-video-extension/total.svg"></a>
+  <a style="float: right" href="https://github.com/carlosvega/edx-video-extension/archive/0.9.zip">Download</a>
+</span>
 
-<a href="https://github.com/carlosvega/edx-video-extension/archive/0.9.zip">Download</a>
-
-<img align="right"  src="icon.png" width="40" />
+<img align="right" src="icon.png" width="40" />
 
 # EDX video download extension
 
