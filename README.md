@@ -1,7 +1,5 @@
-<span>
-  <a style="display: inlin" href="/carlosvega/edx-video-extension/blob/master"><img alt="Github All Releases" src="https://img.shields.io/github/downloads/carlosvega/edx-video-extension/total.svg"></a>
-  <a style="padding-left: 10px !important; vertical-align: text-bottom !important; line-height: 1.6 !important;" href="https://github.com/carlosvega/edx-video-extension/archive/0.9.zip">Download</a>
-</span>
+<a href="https://github.com/carlosvega/edx-video-extension/archive/0.9.zip">Download </a>
+<a style="display: inlin" href="/carlosvega/edx-video-extension/blob/master"><img alt="Github All Releases" src="https://img.shields.io/github/downloads/carlosvega/edx-video-extension/total.svg"></a>
 
 <img align="right" src="icon.png" width="40" />
 
